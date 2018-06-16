@@ -1,5 +1,5 @@
 var quotes = [
-  "Hijos míos, os habéis esforzado, ¿y para qué? Para hacer el ridículo. La moraleja es: ¡no os esforcéis!"
+  'Hijos míos, os habéis esforzado, ¿y para qué? Para hacer el ridículo. La moraleja es: ¡no os esforcéis!',
 ];
 
 function getRandomInt(min, max) {

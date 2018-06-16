@@ -4,7 +4,8 @@
   "description": "D'oh!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/PaperTies/homer.js/issues"
   },
-  "homepage": "https://github.com/PaperTies/homer.js#readme"
+  "homepage": "https://github.com/PaperTies/homer.js#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
 }
