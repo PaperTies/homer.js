@@ -9,4 +9,4 @@ function homer() {
   return quotes[getRandomInt(0, quotes.length)];
 }
 
-console.log(homer());
+console.log("\x1b[43m\x1b[30m%s\x1b[0m", ` ${homer()} `);
